@@ -10,7 +10,8 @@ const AboutTeam = React.lazy(() => import('../components/AboutTeam'));
 
 const AboutPage = () => {
   return (
-    <div className=" px-5 mt-20">
+    <div className=" px-5 mt-20 ">
+      <div className=""></div>
       <ErrorBoundary>
         <Suspense fallback={<AboutSection2Skeleton />}>
           <AboutSection1 />

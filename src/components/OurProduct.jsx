@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import { useContext } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Link } from 'react-router-dom';
 import 'swiper/css';
@@ -35,7 +35,7 @@ const OurProduct = () => {
             <div className="  shadow-lg rounded-xl  text-center transition-transform duration-300 hover:scale-105">
               <Link to={`/product/${card?.id}`}>
                 <img
-                  src={card?.img[0] }
+                  src={card?.img[0]}
                   alt={card?.name || 'Product'}
                   className="w-full rounded-md mb-3"
                 />

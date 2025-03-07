@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { motion } from 'framer-motion';
 import glintxwebsite1 from '../assets/glintxwebsite1.jpg';
 
@@ -9,7 +9,7 @@ const Section2 = () => {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 1, ease: 'easeOut' }}
     >
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-10 mb-5">
+      <div className=" px-5 mt-20 grid md:grid-cols-1 lg:grid-cols-2 gap-4 gap-4 mt-10 mb-5">
         <motion.div
           className="flex flex-col items-center justify-center"
           initial={{ opacity: 0, x: -100 }} // Slide in from the left

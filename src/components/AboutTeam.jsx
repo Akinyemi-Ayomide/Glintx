@@ -8,7 +8,7 @@ const AboutTeam = () => {
       <h1 className="text-2xl md:text-6xl mt-5 mb-10">
         Meet Our Dedicated Team
       </h1>
-      <div className="grid md:grid-cols-4 gap-5">
+      <div className="grid md:grid-cols-3 gap-5">
         {Team.map((item, index) => (
           <motion.div
             key={index}

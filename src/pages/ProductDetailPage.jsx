@@ -39,7 +39,7 @@ const ProductDetailPage = () => {
       </div>
       <div>
         {' '}
-        <h1 className="font-bold mt-10 text-2xl md:text-9xl">{product.name}</h1>
+        <h1 className="font-bold mt-20 text-2xl md:text-4xl">{product.name}</h1>
       </div>
       {/*description*/}
       <div className="mt-10">

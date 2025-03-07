@@ -1,8 +1,11 @@
-import p_img2_1 from './p_img2_1.png';
+import aaaa from './aaaa.jpg';
+import bbbb from './bbbb.jpg';
+import cccc from './cccc.jpg';
+
 
 export const Team = [
-  { id: '1', img: p_img2_1, name: 'Akinyemi Ayodeji' },
-  { id: '2', img: p_img2_1, name: 'Akinyemi Ayodeji' },
-  { id: '3', img: p_img2_1, name: 'Akinyemi Ayodeji' },
-  { id: '4', img: p_img2_1, name: 'Akinyemi Ayodeji' },
+  { id: '1', img: aaaa, name: 'Akinyemi Ayomide' },
+  { id: '2', img: bbbb, name: 'Akinyemi Ayodeji' },
+  { id: '3', img: cccc, name: 'Sulaiman Damilola Suliat (SUSU)' },
+  
 ];

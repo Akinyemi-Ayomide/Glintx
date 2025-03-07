@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import menu1 from '../assets/menu1.png';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import logo from '../assets/logowhite.png';
 const Navbar = () => {
   const [icon, setIcon] = useState(false);
@@ -24,17 +24,18 @@ const Navbar = () => {
   return (
     <div className="">
       <div
-        className={`fixed flex flex-row fixed top-0  w-full justify-between px-6 z-30 items-center  text-white py-4 ${
+        className={`fixed flex flex-row top-0  w-full justify-between px-6 z-30 items-center  text-white py-4 ${
           scroll ? 'bg-[#380152] shadow-md transition-all' : 'text-[#ffc30a] '
         }`}
       >
-        <Link to="/">
+        <NavLink to="/">
           <img src={logo} alt="logo" />
-        </Link>
+        </NavLink>
 
         <div className="hidden md:flex flex-row items-center justify-between gap-5">
-          <Link to="/about">About</Link>
-          <Link to="/contact">Contact</Link>
+        <NavLink to="/">Home</NavLink>
+          <NavLink to="/about">About</NavLink>
+          <NavLink to="/contact">Contact</NavLink>
         </div>
         <img
           src={menu1}
@@ -57,12 +58,24 @@ const Navbar = () => {
           className="flex flex-col items-center justify-center m-auto gap-4"
           onClick={handleClick}
         >
-          <Link to="/about" className="bg-brandYellow py-2 px-7 rounded-full">
+           <NavLink
+            to="/"
+            className="bg-brandYellow py-2 px-7 rounded-full"
+          >
+            Home
+          </NavLink>
+          <NavLink
+            to="/about"
+            className="bg-brandYellow py-2 px-7 rounded-full"
+          >
             About
-          </Link>
-          <Link to="/contact" className="bg-brandYellow py-2 px-7 rounded-full">
+          </NavLink>
+          <NavLink
+            to="/contact"
+            className="bg-brandYellow py-2 px-7 rounded-full"
+          >
             Contact
-          </Link>
+          </NavLink>
         </div>
       </div>
     </div>

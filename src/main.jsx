@@ -1,13 +1,16 @@
+import React from 'react';
 import { createRoot } from 'react-dom/client';
 import './index.css';
-import App from './App.jsx';
-import { BrowserRouter } from 'react-router-dom';
+
+import { RouterProvider } from 'react-router-dom';
 import ProductContextProvider from './context/ProductContext.jsx';
+import router from './routers/router.jsx';
 
 createRoot(document.getElementById('root')).render(
-  <ProductContextProvider>
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
-  </ProductContextProvider>, 
+  <React.StrictMode>
+    <ProductContextProvider>
+      <RouterProvider router={router} />
+    </ProductContextProvider>
+    ,
+  </React.StrictMode>,
 );

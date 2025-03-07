@@ -1,7 +1,8 @@
 import { motion } from 'framer-motion';
-import { Do } from '../assets/Do';
+import { useLoaderData } from 'react-router-dom';
 
 const Section1 = () => {
+  const {Do} = useLoaderData();
   return (
     <motion.div
       className="mt-20"
@@ -21,7 +22,7 @@ const Section1 = () => {
       </div>
 
       <motion.div
-        className="grid md:grid-cols-4 gap-4 w-full"
+        className=" px-5 mt-20 grid md:grid-cols-1 lg:grid-cols-4 gap-4 gap-4 w-full"
         initial={{ opacity: 0, y: -50 }}  // Cards start above the screen
         animate={{ opacity: 1, y: 0 }}    // Cards fall into place
         transition={{ duration: 1, delay: 0.5, ease: 'easeOut' }}  // Cards animation with delay

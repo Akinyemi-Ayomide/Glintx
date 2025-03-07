@@ -1,0 +1,60 @@
+{
+    "slides": [
+      {
+        "id": 1,
+        "image": "https://i.ibb.co/DD8shxPb/glintxwebsitean1.png",
+        "text": "EDUVATE 1.0",
+        "text2": "ENJOY A BETTER EDUCATIONAL ENVIRONMENT AND SEAMLESS ACCESS TO EDUCATION INSTITUTIONS",
+        "text3": "MAKE YOUR SCHOOL A GLOBAL INSTITUTION AT YOUR FINGER TIPS"
+      },
+      {
+        "id": 2,
+        "image": "https://i.ibb.co/B56FypkJ/glintxwebsitean2.png",
+        "text": "THE FUTURE IS NOW!!",
+        "text2": "INVEST IN YOUR SCHOOL NOW, BECOME A BETTER AND MORE RECOGNIZABLE SCHOOL TODAY",
+        "text3": "HERE IS A DIGITAL SOLUTION"
+      },
+      {
+        "id": 3,
+        "image": "https://i.ibb.co/HTmfZp0h/glintxwebsitean3.png",
+        "text": "DON'T MISS THIS OPPORTUNITY",
+        "text2": "TAKE YOUR BUSINESS TO THE NEXT LEVEL",
+        "text3": "ENHANCE CUSTOMER ENGAGEMENT"
+      }
+    ],
+    "Do": [
+      { "id": 1, "img": "https://i.ibb.co/N28hpcdX/diaphragm.png", "name": "photography" },
+      { "id": 2, "img": "https://i.ibb.co/N28hpcdX/diaphragm.png", "name": "web development" },
+      { "id": 3, "img": "https://i.ibb.co/N28hpcdX/diaphragm.png", "name": "app development" },
+      { "id": 4, "img": "https://i.ibb.co/N28hpcdX/diaphragm.png", "name": "cinematography" },
+      { "id": 5, "img": "https://i.ibb.co/N28hpcdX/diaphragm.png", "name": "business branding" },
+      { "id": 6, "img": "https://i.ibb.co/N28hpcdX/diaphragm.png ", "name": "advertisement" }
+    ],
+    "Design": [
+      { "id": 1, "img": "./a.jpg" },
+      { "id": 2, "img": "./b.jpg" },
+      { "id": 3, "img": "./c.jpg" },
+      { "id": 4, "img": "./d.jpg" },
+      { "id": 5, "img": "./e.jpg" },
+      { "id": 6, "img": "./f.jpg" },
+      { "id": 7, "img": "./g.jpg" },
+      { "id": 8, "img": "./h.jpg" },
+      { "id": 9, "img": "./i.jpg" },
+      { "id": 10, "img": "./j.jpg" }
+    ],
+    "products": [
+      {
+        "id": 1,
+        "img": ["./Screenshot1.jpg", "./Screenshot2.jpg", "./Screenshot3.jpg", "./Screenshot4.jpg"],
+        "name": "Eduvate 1.0 – Elevating Your School to Global Standards",
+        "description1": "The world of education is rapidly evolving...",
+        "description2": "Managing a school effectively requires more than just traditional methods...",
+        "description3": "A strong online presence is crucial for schools aiming for global recognition...",
+        "description4": "Security and data protection are at the heart of Eduvate 1.0...",
+        "description5": "Beyond efficiency and security, Eduvate 1.0 enhances communication...",
+        "description6": "With competition among schools increasing, adopting modern solutions...",
+        "description7": "Now is the time to transform your school and embrace the future of education..."
+      }
+    ]
+  }
+  
