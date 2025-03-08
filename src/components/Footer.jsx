@@ -12,7 +12,7 @@ const Footer = () => {
           <Link to="/">
             <FaFacebookF />
           </Link>
-          <Link to="/">
+          <Link to="https://www.instagram.com/glintxworthinternational?igsh=MXFnN2g3M3FrNDIwbQ%3D%3D&utm_source=qr">
             <FaInstagram />
           </Link>
           <Link to="/">
