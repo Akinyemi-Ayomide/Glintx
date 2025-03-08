@@ -10,7 +10,7 @@ const Section3 = () => {
       transition={{ duration: 1, ease: 'easeOut' }}
       className="mt-4 mb-20"
     >
-      <div className=" px-5 mt-20 grid md:grid-cols-1 lg:grid-cols-2 gap-4 gap-4 mt-10 mb-5">
+      <div className="mt-20 grid md:grid-cols-1 lg:grid-cols-2 gap-4 mb-5">
         <motion.div
           initial={{ opacity: 0, scale: 0.8 }} // Start small and faded
           animate={{ opacity: 1, scale: 1 }} // Scale to normal size
