@@ -9,7 +9,7 @@ const AboutSection1 = () => {
       animate={{ opacity: 1 }}
       transition={{ duration: 1, ease: 'easeOut' }}
     >
-      <div className=" px-5 mt-20 grid md:grid-cols-1 lg:grid-cols-2 gap-4 ">
+      <div className="mt-20 grid md:grid-cols-1 lg:grid-cols-2 gap-4 ">
         <motion.div
           className="p-5 md:relative"
           initial={{ x: -100, opacity: 0 }}
@@ -47,7 +47,7 @@ const AboutSection1 = () => {
             alt=""
             className="w-full rounded-3xl mt-2 p-2"
           />
-          <div className=" px-5 mt-20 grid md:grid-cols-1 lg:grid-cols-2 gap-4text-[#ffc30a]">
+          <div className="mt-20 grid md:grid-cols-1 lg:grid-cols-2 gap-4text-[#ffc30a]">
             <motion.div
               className="p-10 rounded-lg shadow-lg"
               initial={{ opacity: 0, x: -100 }}

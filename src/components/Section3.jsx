@@ -24,7 +24,7 @@ const Section3 = () => {
           animate={{ opacity: 1, x: 0 }} // Slide into place
           transition={{ duration: 1, delay: 0.4, ease: 'easeOut' }}
         >
-          <div className="item-center">
+          <div className="item-center mt-10">
             <motion.h1
               className="font-bold text-center mb-5 text-5xl text-[#ffc30a]"
               initial={{ opacity: 0, y: -20 }} // Start from above
