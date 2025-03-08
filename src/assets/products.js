@@ -1,6 +1,5 @@
-import p_img2_1 from './p_img2_1.png';
-import p_img2 from './p_img2.png';
-import p_img4 from './p_img4.png';
+
+
 import Screenshot1 from './Screenshot1.jpg';
 import Screenshot2 from './Screenshot2.jpg';
 import Screenshot3 from './Screenshot3.jpg';
