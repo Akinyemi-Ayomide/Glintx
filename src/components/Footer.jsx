@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         {/* Social Media Icons */}
         <div className="flex justify-center gap-4 mb-4">
-          <Link to="/">
+          <Link to="https://m.facebook.com/p/Glintx-media-100054469494789/">
             <FaFacebookF />
           </Link>
           <Link to="https://www.instagram.com/glintxworthinternational?igsh=MXFnN2g3M3FrNDIwbQ%3D%3D&utm_source=qr">
