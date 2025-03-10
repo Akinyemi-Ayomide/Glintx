@@ -12,10 +12,10 @@ const router = createBrowserRouter([
     element: <RootLayout />,
     children: [
       { index: true, element: <IndexPage />, loader:SlidesLoader },
-      { path: 'contact', element: <ContactPage /> },
-      { path: 'about', element: <AboutPage /> },
-      { path: 'product', element: <ProductPage /> },
-      { path: 'product/:id', element: <ProductDetailPage /> },
+      { path: '/contact', element: <ContactPage /> },
+      { path: '/about', element: <AboutPage /> },
+      { path: '/product', element: <ProductPage /> },
+      { path: '/product/:id', element: <ProductDetailPage /> },
     ],
   },
 ]);
